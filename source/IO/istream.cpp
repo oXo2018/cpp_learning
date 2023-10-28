@@ -17,7 +17,7 @@ int main ()
 
 
     // filename used the absulate pathname as the dir of generate the exec binary file diff with the source dir.
-    ifstream is("/Users/xuyingyang/DEV/DEV_CPP/cpp_learning/source_IO/test.txt",ifstream::binary | istream::in);
+    ifstream is("/Users/xuyingyang/DEV/DEV_CPP/cpp_learning/source_IO/IO/test.txt",ifstream::binary | istream::in);
     if(is.is_open()){
         // move the pointer to the stream end.
         // 0 is Offset value, relative to the way parameter. 
